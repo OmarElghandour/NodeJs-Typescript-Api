@@ -1,5 +1,5 @@
 import express , { Router, Response, Request  } from 'express';
-import BaseController from '../BaseController';
+import BaseController from './BaseController';
 
 /**
  * Controller handling auth routes
