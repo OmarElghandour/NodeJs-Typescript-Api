@@ -4,7 +4,7 @@ import AuthenticationController from '../controllers/AuthenticationController';
 export default class RouterHandler {
     public router : Router = Router();
     private controller = [
-        { handler : '/login', name : AuthenticationController}
+        { handler : '/auth', name : AuthenticationController}
     ];
     public HandelRoutes() {
         this.controller.forEach((controller) => {

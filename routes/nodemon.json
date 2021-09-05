@@ -1,7 +1,0 @@
-{
-    "ignore": [".git", "node_modules", "dist"],
-    "watch": ["./src"], 
-    "exec": "npm run dev", 
-    "ext": "ts",
-    "dev": "npm run dev"
-}
